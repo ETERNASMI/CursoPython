@@ -1,0 +1,22 @@
+n = int(input('Digite um valor inteiro: '))
+n0 = n*1
+n1 = n*2
+n2 = n*3
+n3 = n*4
+n4 = n*5
+n5 = n*6
+n6 = n*7
+n7 = n*8
+n8 = n*9
+n9 = n*10
+print('A tabuada de {}:'.format(n))
+print('{} x 1 = {:2}'.format(n, n0))
+print('{} x 2 = {:2}'.format(n, n1))
+print('{} x 3 = {:2}'.format(n, n2))
+print('{} x 4 = {:2}'.format(n, n3))
+print('{} x 5 = {:2}'.format(n, n4))
+print('{} x 6 = {:2}'.format(n, n5))
+print('{} x 7 = {:2}'.format(n, n6))
+print('{} x 8 = {:2}'.format(n, n7))
+print('{} x 9 = {:2}'.format(n, n8))
+print('{} x 10 ={:2}'.format(n, n9))

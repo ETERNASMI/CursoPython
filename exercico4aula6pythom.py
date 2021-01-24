@@ -1,0 +1,8 @@
+tex = input('Escreva algo:')
+print('O tipo primitivo do que voce digitou é', type(tex))
+print('É um numero e letra?', tex.isalnum())
+print('Tem letras maiusculas?', tex.isupper())
+print('Tem letras e numeros', tex.isalpha())
+print("Esta capitalizado?", tex.istitle())
+print('[É um numero?', tex.isnumeric())
+print('Tem espaço', tex.isspace())

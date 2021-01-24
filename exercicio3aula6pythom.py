@@ -1,0 +1,10 @@
+n = input('Digite seu nome: ')
+print('Seu nome é {}'.format(n))
+n1 = float(input('Digite um numero com virgula:'))
+n2 = int(input('Digite um valor inteiro:'))
+n3 = float(input('Digite um valor qualquer:'))
+s = (n1 + n2 + n3)
+m = (n1 + n2 + n3)/3
+print('A soma da sua nota é:{}'.format(s))
+print('O primeiro numero é {}, o segundo numero {} e o terceiro numero é {}'.format(n1, n2, n3))
+print('A sua media foi de {}'.format(m))
